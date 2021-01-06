@@ -10,9 +10,12 @@ function time () {
   // gets day of week from html document
   if (weekday === 'Saturday' || weekday === 'Sunday') {
     alert('Time To Relax')
+    //makes an alert pop up
   } else if (age <= 18) {
     alert('Time For School')
+    // makes an alert pop up
   } else {
     alert('Time For Work')
+    // makes an alert pop up
   }
 }
