@@ -8,13 +8,11 @@ function time () {
   // gets age from html document
   const weekday = (document.getElementById('weekday').value)
   // gets day of week from html document
-  if ((age >= 18) && (weekday >=4)) {
-    alert('Time For School!')
-    // makes an alert pop up
-  } else if ((age >= 18) && (weekday >=4)) {
-    alert('Time For Work')
-    // makes an alert pop up
+  if (weekday === 'Saturday' || weekday === 'Sunday') {
+    alert('Time To Relax')
+  } else if (age <= 18) {
+  alert('Time For School')
   } else {
-    alert('Time To Relax!')
+  alert('Time For Work')
   }
 }
