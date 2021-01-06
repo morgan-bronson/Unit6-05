@@ -11,8 +11,8 @@ function time () {
   if (weekday === 'Saturday' || weekday === 'Sunday') {
     alert('Time To Relax')
   } else if (age <= 18) {
-  alert('Time For School')
+    alert('Time For School')
   } else {
-  alert('Time For Work')
+    alert('Time For Work')
   }
 }
